@@ -1,4 +1,13 @@
-/**/
+/*No código abaixo, há a definição de biblioteca e de uma variável global altura máxima.
+Logo em seguida é criada uma struct PesoAltura, que contém dois inteiros que armazenam
+peso e altura.
+No método principal foram cridos o inteiro x e o tipo PesoAltura pessoa1. Em pessoa1.peso
+foi atribuido o valor 80 e em pessoa.altura, 185. 
+Em seguida, há um comando printf que imprime " Peso: 80, Altura: 185." 
+Caso pessoa.altura for maior que a altura máxima, será impresso "Altura acima da maxima.\n".
+No caso em questão, a mensagem impressa é "Altura abaixo da maxima.\n" pois 185<225.
+O último printf imprime os endereços das variáveis x, pessoa1 e pessoa1.altura, respectivamente.
+O programa é encerrado com o return 0. */
 
 #include <stdio.h>
 #define alturaMaxima 225
