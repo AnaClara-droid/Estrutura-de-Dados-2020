@@ -1,4 +1,11 @@
-/**/
+/*Esse código, assim como o EstruturaSimples.c,  há a definição de biblioteca
+e de uma variável global altura máxima e a criação uma struct PesoAltura, 
+que contém dois inteiros que armazenam peso e altura. 
+O diferencial aqui é a definição da biblioteca malloc.h.
+No método principal é criado um inteiro x, um ponteiro do tipo PesoAltura 
+pessoa1. 
+TERMINAR!!
+*/
 
 #include <stdio.h>
 #include <malloc.h>
