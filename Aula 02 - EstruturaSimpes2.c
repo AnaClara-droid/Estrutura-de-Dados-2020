@@ -3,8 +3,16 @@ e de uma variável global altura máxima e a criação uma struct PesoAltura,
 que contém dois inteiros que armazenam peso e altura. 
 O diferencial aqui é a definição da biblioteca malloc.h.
 No método principal é criado um inteiro x, um ponteiro do tipo PesoAltura 
-pessoa1. 
-TERMINAR!!
+pessoa1. É impresso o valor do endereço de memoria de pessoa1 e logo em 
+seguida feita a alocação dinâmica do endereco de pessoa1 de acordo com o
+tamanho do seu tipo PesoAltura. 
+É impresso os conteúdos de pessoa1->peso e pessoa1->altura, na proxima 
+linha são atribuidos  novos valores às variáveis e novamente impressos
+seus conteúdos. 
+No final é feita uma verificação para saber se a altura esta acima ou 
+abaixo da AlturaMaxima e impressos os endereços de x, pessoa1 e o 
+endereço que aponta pessoa1.
+
 */
 
 #include <stdio.h>
